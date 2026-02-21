@@ -233,12 +233,12 @@ Destruction is reverse.
 
 ## What This Module Teaches Deeply
 
-1.IS-A relationship
-2.Code reuse
-3.Constructor chaining
-4.Ambiguity resolution
-5.Multiple inheritance dangers
-6.Attribute shadowing
-8.Scope resolution operator
-9.Virtual inheritance
+1. IS-A relationship
+2. Code reuse
+3. Constructor chaining
+4. Ambiguity resolution
+5. Multiple inheritance dangers
+6. Attribute shadowing
+8. Scope resolution operator
+9. Virtual inheritance
 
