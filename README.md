@@ -1,6 +1,67 @@
 C++ Module 03 – Inheritance
 42 Abu Dhabi – C++98 Standard
 
+## Inheritance Summary
+What is Inheritance?
+Inheritance means creating a new class based on an existing class.
+It represents an **IS-A relationship**.
+
+Example:
+- Dog is an Animal
+- ScavTrap is a ClapTrap
+
+---
+Constructor & Destructor Order
+
+When creating a derived object:
+Constructor Order
+Parent constructor - > Child constructor
+
+❌ Destructor Order
+Child destructor - > Parent destructor
+
+This happens because: The base class must exist before the derived class can extend it.
+
+-----
+
+Types of Inheritance in C++
+
+1. class Child : public Parent
+2. class Child : protected Parent
+3. class Child : private Parent
+
+----
+
+Multiple Inheritance
+A class can inherit from more than one class:
+<pre>
+class A {};
+class B {};
+
+class C : public A, public B {}; 
+</pre>
+
+---
+
+Solution: Virtual Inheritance
+
+<pre>
+class Animal {
+public:
+    void sound() {}
+};
+
+class Dog : virtual public Animal {};
+class Cat : virtual public Animal {};
+
+class Chimera : public Dog, public Cat {};  
+</pre>
+
+What does virtual do?
+
+It ensures that:
+All derived classes share the same base instance.
+
 ## Overview
 This module introduces Inheritance in C++, including:
 
