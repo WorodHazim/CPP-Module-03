@@ -1,6 +1,13 @@
 C++ Module 03 – Inheritance
 42 Abu Dhabi – C++98 Standard
 
+![C++](https://img.shields.io/badge/C%2B%2B-98-blue)
+![42](https://img.shields.io/badge/School-42-black)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![Standard](https://img.shields.io/badge/Standard-C++98-orange)
+
+---
+
 ## Inheritance Summary
 What is Inheritance?
 Inheritance means creating a new class based on an existing class.
